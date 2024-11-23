@@ -1,0 +1,407 @@
+/* index page Styles */
+.head{
+  text-align: center;
+  font-family: forte;
+  font-size: 100px;
+
+}
+
+.logo{
+  width: 200px;
+  height: 160px;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/*Navogation Styles Section*/
+
+.navbar {
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.navbar{
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-left: 20px;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/*Carousel Styles Section*/
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+  margin: auto;
+}
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-images img {
+  width: 100%;
+  height: 10%;
+}
+.carousel-dots {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #bbb;
+  cursor: pointer;
+}
+.active {
+  background-color: #717171;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/*Welcome Section */
+.welcome-section h1 {
+  color: #333;
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif;;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  color: #070707;
+  font-size: 1.5rem;
+}
+
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-us .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-us h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us .about-image {
+    margin: 50px 0;
+  }
+  
+  .about-us .about-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+/*====================================================================================*/
+/*====================================================================================*/
+
+  /* Classes Section */
+.classes {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.classes .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.classes h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.classes p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.class-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.class-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.class-card .class-info {
+  max-width: 500px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.class-card h2 {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/* Teachers Section */
+.teachers {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.teachers .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teachers h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.teachers p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.teacher-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.teacher-card img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.teacher-card .teacher-info {
+  max-width: 500px;
+  text-align: left;
+}
+
+.teacher-card h2 {
+  font-size: 2rem;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.teacher-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.teacher-card p:nth-child(2) {
+  font-weight: bold;
+}
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+/* Gallery Section */
+.gallery {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.gallery .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.gallery p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+/*====================================================================================*/
+/*====================================================================================*/
+
+  /* Contact Us Section */
+.contact-us {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.contact-us .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-us h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.contact-us p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form .form-group {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form .btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.contact-form .btn:hover {
+  background-color: #45a049;
+}
